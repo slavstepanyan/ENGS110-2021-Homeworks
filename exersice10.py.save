@@ -1,0 +1,9 @@
+def main()L
+	N = int(input("please insert the width"))
+	M = int(input("please insert the hieght"))
+
+	while (currRow < M):
+		print (N * "*")
+		currRow +=1
+
+
