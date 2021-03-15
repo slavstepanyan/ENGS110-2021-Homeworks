@@ -21,7 +21,7 @@ def Calc(sum):
 print ("sum of Fibbonaci numbers smaller than your age is", Calc(age))
 
 def PCheck(check):
-    for i in range (2,int( (check/2)+1)):
+    for i in range (2,int( (check//2)+1)):
         if check%i == 0:
             return True
         else:
